@@ -76,7 +76,9 @@ button {
 .header-logo {
   padding: 24px 0;
   margin-right: 76px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link {
   display: block;
   font-weight: 500;
@@ -99,7 +101,6 @@ button {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
-
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts {
@@ -258,6 +259,15 @@ button {
   background-color: #f4f4fd;
 }
 
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+}
 .team-list {
   display: flex;
   gap: 24px;
@@ -307,7 +317,7 @@ button {
 
 .icon-soc-link :hover,
 :focus {
-  background-color: #404bbf;
+  transition-property: background-color #404bbf;
 }
 
 .icon-soc {
@@ -323,7 +333,7 @@ button {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-.team-title,
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -356,7 +366,7 @@ button {
 
 .portfolio-thumb:hover .portfolio-thumb-text {
   transform: translateY(0%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item {
@@ -378,16 +388,13 @@ button {
   background-color: #2e2f42;
   padding: 100px 0 100px;
 }
-
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
-
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -406,16 +413,13 @@ button {
   color: #fff;
   margin-bottom: 16px;
 }
-
 .footer-container {
   display: flex;
   align-items: baseline;
 }
-
 .footer-logo-text {
   margin-right: 120px;
 }
-
 .footer-icon-soc-list {
   display: flex;
   gap: 16px;
