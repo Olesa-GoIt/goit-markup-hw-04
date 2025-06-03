@@ -316,11 +316,14 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-soc-item :hover,
-:focus {
+.icon-soc-item :hover {
   background-color: #404bbf;
 }
 
+.icon-soc-item :focus,
+:active {
+  background-color: #404bbf;
+}
 .icon-soc {
   fill: #f4f4fd;
 }
