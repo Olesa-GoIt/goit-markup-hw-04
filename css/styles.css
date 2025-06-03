@@ -81,6 +81,7 @@ button {
 
 .nav-link {
   display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -129,7 +130,6 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contacts-list {
