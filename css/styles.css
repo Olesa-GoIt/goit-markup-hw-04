@@ -352,6 +352,7 @@ button {
 .portfolio-thumb {
   position: relative;
   overflow: hidden;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-thumb-text {
@@ -366,11 +367,6 @@ button {
   height: 100%;
   width: 100%;
   transform: translateY(100%);
-}
-
-.portfolio-thumb-text .animated {
-  transition-property: transform 
-  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-thumb:hover .portfolio-thumb-text {
