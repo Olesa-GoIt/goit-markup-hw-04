@@ -291,6 +291,7 @@ button {
 
 .team-text {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .icon-soc-list {
@@ -428,7 +429,6 @@ button {
 .footer-icon-soc-list {
   display: flex;
   gap: 16px;
-  margin-top: 8px;
 }
 
 .footer-icon-soc-item {
